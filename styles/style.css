@@ -1,0 +1,164 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+header{
+   
+    padding:auto;
+    background-color:rgb(138, 100, 226);
+background-image: url(/image/top_background.jpg);
+background-size:cover;
+background-position:center;
+
+}
+header nav{
+    
+    margin-left:50%;
+    margin-right: 15%;
+    margin-top:auto;
+    margin-bottom: auto;
+    border-radius: 25px;
+    box-shadow:-10px 0px 0px yellowgreen;
+    background-color: rgb(238, 189, 27);
+
+    
+}
+header nav a{
+    font-size :15px;;
+    padding-left:10%;
+    padding-right: 10%;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+header nav a::first-letter{
+    font-size:20px;
+    color: brown;
+    font-weight: bold;
+}
+main{
+    margin:0 0;
+    background-color: #00b39b;
+
+}
+.avatar{
+    margin-left:25%;
+    margin-top:auto;
+    margin-bottom: 20px;
+    
+}
+.photo{
+   
+    height: 270px;
+    width: 250px;
+    margin-left:15%;
+    border-radius:50%;
+    border-right: 15px goldenrod groove;
+    border-bottom: 15px goldenrod groove;
+    background-image: url(/image/top_background.jpg);
+    background-size:cover;
+    background-position:center;
+
+}
+
+main section{
+    
+    background-image:url(/image/garden.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    
+}
+h1{
+    color:rgb(121, 61, 5);
+    font-size:80px;
+    text-shadow: 4px 4px 0px black;
+ 
+}
+main section div{
+    display:inline-block;
+    margin-top:5%;
+    margin-bottom:40px;
+    margin-left: 300px;
+    width:300px ;
+}
+
+.img-main{
+    height: 200px;
+    width: 300px;
+    margin-left: 25%;
+}
+main section div button{
+    margin-left: 200px;
+    margin-top:20px;
+    margin-bottom: 0px;
+    width:200px;
+}
+p{
+    display:inline-block;
+    width:500px;
+    font-size:20px;
+    margin-left:5%;
+    margin-right:5%;
+    font-style:italic;
+    text-align:justify;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+p::first-letter{
+    font-size:200px;
+    font-weight:50px;
+    color:white;
+}
+form{
+    
+       border-top: 5px dashed brown;
+
+}
+
+
+form input{
+    width:300px;
+    margin-top: 5px;
+    margin-left:40%;
+    margin-bottom: 5px;
+    height:30px;
+    color: blue;
+    background-color: bisque;
+    border-color:rgb(189, 53, 194);
+}
+.dernier-input{
+    width:100px;
+    margin-top: 5px;
+   margin-left:48%;
+   margin-bottom: 5px;
+   color: blue;
+   background-color:violet;
+border-radius: 30px;
+border: violet;
+}
+ body{
+    background-color: rgb(170, 255, 177);
+   
+}
+footer{
+    background-color: rgb(170, 255, 177); 
+}
+footer h5{
+    margin-left: 50%;
+    font-style:italic;
+    color:   #00b39b;
+    margin-bottom:5px;
+    float:left;
+    
+}
+footer div a{
+
+    margin-left:0%;
+    color:blue;
+    word-spacing: 10px;
+    font-size: 15px;
+    clear:left;
+    width:20%;
+}
